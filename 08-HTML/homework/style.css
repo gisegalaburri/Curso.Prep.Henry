@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: purple;
+    background: transparent;
+    
+
+}
+
+body {
+    background-image: url(https://thumbs.dreamstime.com/z/fondo-del-vector-del-men%C3%BA-de-la-pizza-men%C3%BA-del-caf%C3%A9-del-restaurante-dise%C3%B1o-de-la-plantilla-95006848.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    color: coral;
+    -webkit-text-stroke: 2px black;
+    font-variant-caps: all-petite-caps;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*position: fixed;*/
+    justify-content: center;
+    background-color: floralwhite;
+    
+}
+
+h3 {
+    font-size: 50px;
+    color: yellow;
+    font-variant-caps: unicase;
+    -webkit-text-stroke: 2px black;
+}
+
+h4 {
+    font-size: 20px;
+    
+}
+
+#thirdDiv {
+    /* display: inline-block;*/
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    background-color: #ffffcc;
+    padding: 50px;
+    border: 2px;
+    border-style: dashed;
+    border-color: crimson;
+    border-radius: 10%;
+
+}
+ul {
+    max-height: 0;
+}
+li {
+    list-style: none;
+    overflow: auto;
+}
+
+img {
+    width: 400px;
+
+}
+
+.divClass {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
