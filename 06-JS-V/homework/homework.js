@@ -14,9 +14,9 @@ function crearUsuario() {
   class Usuario {
     constructor  (opciones) {
       this.usuario = opciones.usuario;
-    this.nombre = opciones.nombre;
-    this.email = opciones.email;
-    this.password = opciones.password;
+      this.nombre = opciones.nombre;
+      this.email = opciones.email;
+      this.password = opciones.password;
     }
 
     saludar() {
